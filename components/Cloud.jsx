@@ -7,7 +7,7 @@ import Deployment from "./Deployment";
 
 const Cloud = () => {
 	return (
-		<section className="flex flex-col justify-center items-center mt-28 mb-10">
+		<section className="flex flex-col justify-center items-center md:mt-28 mb-10">
 			<div className="bg-zinc-800 border border-zinc-500 py-2 px-3 rounded-full">
 				<CloudImage size={50} />
 			</div>
@@ -20,7 +20,7 @@ const Cloud = () => {
 				</h1>
 			</div>
 
-			<div className="flex justify-center gap-8 mt-14 w-full">
+			<div className="flex flex-wrap justify-center gap-8 mt-14 w-full">
 				<div className="w-[450px] h-[500px] bg-zinc-900 border border-zinc-500 rounded-[20px] overflow-hidden">
 					<div className="relative h-full">
 						<Image
