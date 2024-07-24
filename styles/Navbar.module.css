@@ -1,0 +1,24 @@
+/* Navbar.module.css */
+.navDropdown {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: white;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	overflow: hidden;
+	transform: translateY(-20px); /* Hide initially */
+	opacity: 0; /* Hide initially */
+	transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .navDropdownVisible {
+	transform: translateY(0); /* Slide down */
+	opacity: 1; /* Show */
+  }
+  
+  .navDropdownHidden {
+	transform: translateY(-20px); /* Slide up */
+	opacity: 0; /* Hide */
+  }
+  
