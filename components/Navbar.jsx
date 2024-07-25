@@ -46,7 +46,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="flex flex-row justify-between items-center sticky top-0 z-[100] h-[68px]">
+		<nav className="bg-[#000] flex flex-row justify-between items-center sticky top-0 z-[100] h-[68px]">
 			<div className="hidden md:flex flex-row gap-6 ml-12 text-[16px] relative">
 				{navLinks.map((link, index) => (
 					<div
