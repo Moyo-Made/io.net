@@ -13,7 +13,7 @@ const MoreGPUs = () => {
 				<Image src={Hundred} />
 
 				<div className="text-center ">
-					<h1 className="md:text-[50px] text-[35px] font-medium">
+					<h1 className="md:text-[50px] text-[30px] font-medium">
 						<span className="blur-effect" data-text="More GPUs">
 							More GPUs
 						</span>{" "}
