@@ -70,7 +70,7 @@ const BreakingPrices = () => {
 							{currentItem.text}
 						</span>
 					</div>
-					<h1 className="text-[40px] font-medium">
+					<h1 className="md:text-[40px] text-[30px] font-medium">
 						Better, Faster and <br />{" "}
 						<span className="blur-effect" data-text="Cheaper">
 							Cheaper
