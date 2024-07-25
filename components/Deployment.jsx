@@ -8,7 +8,7 @@ const Deployment = () => {
 	return (
 		<section>
 			<div className="flex flex-wrap justify-center gap-8 mt-7 w-full">
-				<div className="md:w-[700px] w-[450px] h-[500px] bg-zinc-900 border border-zinc-500 rounded-[20px] overflow-hidden">
+				<div className="md:w-[700px] w-[450px] h-[500px] bg-[#000] border border-zinc-500 rounded-[20px] overflow-hidden">
 					<div className="relative h-full">
 						<Image src={Deploy} alt="Universe" fill className="object-cover" />
 						<div className="absolute bottom-[10.5rem] left-5 w-10 h-10">
@@ -30,7 +30,7 @@ const Deployment = () => {
 					</div>
 				</div>
 
-				<div className="md:w-[450px] w-[450px]  h-[500px] bg-zinc-900 border border-zinc-500 rounded-[20px] overflow-hidden">
+				<div className="md:w-[450px] w-[450px]  h-[500px] bg-[#000] border border-zinc-500 rounded-[20px] overflow-hidden">
 					<div className="relative h-full">
 						<Image src={Solana} alt="" fill className="" />
 						<div className="absolute bottom-[7rem] left-5 w-10 h-10">
