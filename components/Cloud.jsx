@@ -21,7 +21,7 @@ const Cloud = () => {
 			</div>
 
 			<div className="flex flex-wrap justify-center gap-8 mt-14 w-full">
-				<div className="w-[450px] h-[500px] bg-zinc-900 border border-zinc-500 rounded-[20px] overflow-hidden">
+				<div className="w-[450px] h-[500px] bg-[#000] border border-zinc-500 rounded-[20px] overflow-hidden">
 					<div className="relative h-full">
 						<Image
 							src={Universe}
@@ -48,7 +48,7 @@ const Cloud = () => {
 					</div>
 				</div>
 
-				<div className="w-[700px] h-[500px] bg-zinc-900 border border-zinc-500 rounded-[20px] overflow-hidden">
+				<div className="w-[700px] h-[500px] bg-[#000] border border-zinc-500 rounded-[20px] overflow-hidden">
 					<div className="relative h-full">
 						<Image
 							src="https://io.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstreamlined-cluster-deployment-background.0426a525.png&w=3840&q=75"
